@@ -112,7 +112,7 @@ body{
         
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         cursor: pointer;
         height:4rem;
         top:3%
@@ -126,11 +126,11 @@ body{
     }
 
     .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(12px) rotate(45deg);
     }
 
     .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-12px) rotate(-45deg);
     }
 
 }
